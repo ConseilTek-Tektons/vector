@@ -1,0 +1,30 @@
+{
+  "realm": "vector",
+  "enabled": true,
+  "displayName": "Vector local identity broker",
+  "registrationAllowed": false,
+  "loginWithEmailAllowed": true,
+  "clients": [
+    {
+      "clientId": "vector-web",
+      "name": "Vector Web",
+      "enabled": true,
+      "clientAuthenticatorType": "client-secret",
+      "secret": "local-dev-secret",
+      "standardFlowEnabled": true,
+      "directAccessGrantsEnabled": false,
+      "redirectUris": ["http://localhost:3000/api/auth/callback/enterprise-sso"],
+      "webOrigins": ["http://localhost:3000"],
+      "protocol": "openid-connect",
+      "defaultClientScopes": ["web-origins", "acr", "roles", "profile", "email", "groups"]
+    }
+  ],
+  "groups": [
+    { "name": "vector-owners" },
+    { "name": "vector-admins" },
+    { "name": "engineering-leads" },
+    { "name": "engineers" },
+    { "name": "product-partners" },
+    { "name": "delivery-analytics" }
+  ]
+}

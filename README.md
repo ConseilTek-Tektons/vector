@@ -1,11 +1,11 @@
 <div align="center">
-  <img src="public/brand/mark-light.png" alt="ConseilTek" width="120" />
+  <img src="public/brand/logo.png" alt="ConseilTek" width="180" />
   <h1>Vector</h1>
   <p><strong>Issue tracking that stays fast—and stays yours.</strong></p>
   <p>Cycles and projects · enterprise SSO · configurable RBAC · PostgreSQL · grounded AI · AWS and Azure</p>
 </div>
 
-[![CI](https://github.com/ConseilTek-Tektons/vector/actions/workflows/ci.yml/badge.svg)](https://github.com/ConseilTek-Tektons/vector/actions/workflows/ci.yml) [![CodeQL](https://github.com/ConseilTek-Tektons/vector/actions/workflows/codeql.yml/badge.svg)](https://github.com/ConseilTek-Tektons/vector/actions/workflows/codeql.yml) [![License](https://img.shields.io/badge/license-Apache--2.0-a3ff12)](LICENSE)
+[![CI](https://github.com/ConseilTek-Tektons/vector/actions/workflows/ci.yml/badge.svg)](https://github.com/ConseilTek-Tektons/vector/actions/workflows/ci.yml) [![CodeQL](https://github.com/ConseilTek-Tektons/vector/actions/workflows/codeql.yml/badge.svg)](https://github.com/ConseilTek-Tektons/vector/actions/workflows/codeql.yml) [![License](https://img.shields.io/badge/license-Apache--2.0-222c62)](LICENSE)
 
 Vector gives engineering teams one focused place to triage work, plan cycles, track project health, expose dependencies, and understand delivery risk. ConseilTek built it as a deployable application: the UI, authenticated APIs, PostgreSQL model, identity integration, tests, container, and two cloud deployment paths live together here.
 

@@ -84,10 +84,10 @@ export function ProductDashboard({ roles }: { roles: string[] }) {
               <div className="mini-chart">
                 <ResponsiveContainer width="100%" height="100%">
                   <AreaChart data={dashboard.trend} margin={{ top: 5, right: 0, bottom: 0, left: 0 }}>
-                    <defs><linearGradient id="primaryFill" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stopColor="#a3ff12" stopOpacity={0.4}/><stop offset="100%" stopColor="#a3ff12" stopOpacity={0}/></linearGradient></defs>
+                    <defs><linearGradient id="primaryFill" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stopColor="#222c62" stopOpacity={0.4}/><stop offset="100%" stopColor="#222c62" stopOpacity={0}/></linearGradient></defs>
                     <XAxis dataKey="label" hide />
-                    <Tooltip contentStyle={{ background: "#171717", border: "1px solid #333", borderRadius: 6 }} />
-                    <Area type="monotone" dataKey="value" stroke="#a3ff12" fill="url(#primaryFill)" strokeWidth={2} />
+                    <Tooltip contentStyle={{ background: "#ffffff", border: "1px solid #d8d9d4", borderRadius: 6 }} />
+                    <Area type="monotone" dataKey="value" stroke="#222c62" fill="url(#primaryFill)" strokeWidth={2} />
                   </AreaChart>
                 </ResponsiveContainer>
               </div>
